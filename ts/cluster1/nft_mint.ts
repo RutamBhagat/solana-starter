@@ -16,7 +16,7 @@ umi.use(mplTokenMetadata());
 const mint = generateSigner(umi);
 
 (async () => {
-  let tx = await createNft(umi, {
+  let tx = createNft(umi, {
     mint,
     name: "RUG PULL RUG",
     symbol: "RPR",
