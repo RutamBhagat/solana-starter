@@ -18,7 +18,7 @@ umi.use(signerIdentity(signer));
   try {
     //1. Load image
     const imageFile = await readFile(
-      "/home/rutam/Downloads/Code/rust/turbin_wba/week_0/solana-starter/ts/cluster1/generug.png"
+      "/home/rutam/Downloads/Code/rust/turbin_wba/week_0/solana-starter/ts/cluster1/rugpull.png"
     );
 
     //2. Convert image to generic file.

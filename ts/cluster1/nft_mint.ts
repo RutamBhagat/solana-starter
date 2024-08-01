@@ -18,9 +18,9 @@ const mint = generateSigner(umi);
 (async () => {
   let tx = await createNft(umi, {
     mint,
-    name: "My NFT",
-    symbol: "MNFT",
-    uri: "https://arweave.net/Z5b0o6A6XwOSUPST9BzzR_-CefqkvUvM9fvw60StwJo",
+    name: "RUG PULL RUG",
+    symbol: "RPR",
+    uri: "https://arweave.net/tP29icxMAlt0ZlzrgrQ4ZF6FHSwqpPWbo3ALg15m2wU",
     sellerFeeBasisPoints: percentAmount(5, 2), // 5%
   });
 

@@ -18,11 +18,11 @@ umi.use(signerIdentity(signer));
     // Follow this JSON structure
     // https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
 
-    const image = "https://arweave.net/CjbveW-vGZGvaKJdMfy7K_15qXFhyepyouOzjpKSQWw";
+    const image = "https://arweave.net/M2bF3Ug53fL1dCzE1EOnkjzEFtVPxOIB0jZv3JYVe4o";
     const metadata = {
-      name: "MY WAR RUG",
-      symbol: "MWR",
-      description: "Attack on titan Exclusive Edition Rug",
+      name: "RUG PULL RUG",
+      symbol: "RPR",
+      description: "Rug Pull Master Edition Rug",
       image: image,
       attributes: [{ trait_type: "material", value: "Rug" }],
       properties: {
